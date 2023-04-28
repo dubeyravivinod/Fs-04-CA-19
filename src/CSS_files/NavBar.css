@@ -1,0 +1,87 @@
+.navbar{
+    border: 2px solid blue;
+    height: 10%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.navbar .count{
+    /* border: 2px solid red; */
+    width: 9rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+
+}
+.navbar ul li span{
+    width: 30px;
+
+    border: 1px solid black;
+background-color: red;
+border-radius: 50%;
+    height: 30px;
+    /* display: block; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.navbar ul{
+    /* border: 2px solid red; */
+    width: 40%;
+    height: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar ul li{
+    font-size: 1.3rem;
+    list-style-type: none;
+    /* display: flex; */
+}
+ a{
+    margin: 2rem;
+    text-decoration: none;
+    color: white;
+    font-size: 1.4rem;
+
+}
+
+.active{
+    font-size: 1.3rem;
+    /* color: red; */
+    /* text-decoration: none; */
+
+
+}
+@media only screen and (min-width:560px) and (max-width:744px){
+a{
+    font-size: 1.2rem;
+    /* border: 2px solid red; */
+    margin: 1rem;
+
+}
+.h1{
+font-size: 1.6rem;
+}
+}
+@media only screen and (min-width:280px) and (max-width:370px){
+    a{
+        font-size: 1.2rem;
+        /* border: 2px solid red; */
+        margin: 1rem;
+    
+    }
+    .h1{
+    font-size: 1.4rem;
+    }
+}
+@media only screen and (max-width:280px){
+    .h1{
+        font-size: 1rem;
+        }
+}
